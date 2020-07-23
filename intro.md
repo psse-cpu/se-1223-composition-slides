@@ -153,7 +153,12 @@ Composition
       <li>Use it if unsure between ⬥ and ⬦</li>
       <li>Handy for quick whiteboard sketches in a team meeting</li>
       <li>This ambiguity is a double-edged 𐃉</li>
-      <li>Note that the arrowhead is on the <em>part-side</em>, not the whole/owner side</li>
+      <li>Note that the arrowhead is on the <em>part-side</em>, not the whole/owner side
+        <ul>
+          <li><em>"Rich <strong>owners</strong> have the diamonds"</em></li>
+          <li><em>"I shoot my subordinates with arrows"</em></li>
+        </ul>
+      </li>
     </ul>
     </li>
   </ul>
