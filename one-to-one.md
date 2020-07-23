@@ -1,4 +1,4 @@
-One-to-one
+dOne-to-one
 ----------
 
 
@@ -76,3 +76,44 @@ print(brokenEmotionlessDude.personality?.introvered); // null
 // Code full of ?. can indicate some code smell
 // lack of analysis, unfounded paranoia, trust issues 😁
 ```
+
+
+
+### Why not this approach?
+
+<div style="display: flex;">
+  <div style="flex: 1" class="fragment">
+    <img src="images/why-not.png" alt="why not">
+  </div>
+
+  <div style="flex: 1" class="fragment">
+    <img src="images/choose.jpg" alt="choose">
+  </div>
+</div>
+
+
+
+### Remember the Single Responsibility Principle (SRP)?
+
+* What if personality details are not compulsory or urgent? <!-- .element style="font-size: 0.9em" -->
+  - like a `Person` who have not yet taken a personality test?
+  - like a `Person` who wants to keep his personality private?
+
+```dart
+final me = Person(name: 'Mike'); // no personality test yet
+print('Introvert? ${me.introverted}'); // null
+print('Psychopath %: ${me.psychopathProbability}%'); // null
+```
+  
+* The two `print` statements would output `null`.
+  - an object full of `null`s is a huge clue that your class is violating SRP
+
+
+
+### Why do objects containing tons of `null`s a violation of SRP?
+
+It's your turn to ponder and think.  Share it [here](https://canvas.instructure.com/courses/2109863/discussion_topics/9412164).
+
+The evil author of this slides is not in the mood to ponder and think.
+
+![sasuke](images/sasuke.gif) <!-- .element style="width: 44 0px; height: 250px;" -->
