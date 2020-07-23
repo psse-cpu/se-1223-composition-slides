@@ -175,4 +175,4 @@ Composition
   - There's a principle you'll learn in SE 2122 (Software Component Design)
     - it's the continuation of this course (not SE 2123- Softdev III)
     - That principle states: _"Favor composition over inheritance"_
-    - That means favor _has-a_ (whether ⬥ or ⬦) over _is-a_
+    - That means _has-a_ (whether ⬥ or ⬦) is **sometimes** better than _is-a_
