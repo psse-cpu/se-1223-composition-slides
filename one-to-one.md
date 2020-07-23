@@ -110,7 +110,7 @@ print('Psychopath %: ${me.psychopathProbability}%'); // null
 
 
 
-### Why do objects containing tons of `null`s a violation of SRP?
+### Why do objects containing tons of `null`<span style="text-transform: none">s</span> a violation of SRP?
 
 It's your turn to ponder and think.  Share it [here](https://canvas.instructure.com/courses/2109863/discussion_topics/9412164).
 
