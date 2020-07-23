@@ -96,7 +96,7 @@ print(brokenEmotionlessDude.personality?.introvered); // null
 ### Remember the Single Responsibility Principle (SRP)?
 
 * What if personality details are not compulsory or urgent? <!-- .element style="font-size: 0.9em" -->
-  - like a `Person` who have not yet taken a personality test?
+  - like a `Person` who has not yet taken a personality test?
   - like a `Person` who wants to keep his personality private?
 
 ```dart
