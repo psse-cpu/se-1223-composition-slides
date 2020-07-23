@@ -100,7 +100,7 @@ Composition
 
 * whole-part relationship, shareable parts
   - the _"whole"_ side gets the **hollow** diamond
-  - composition is _**"weak"**_ has-a
+  - aggregation is _**"weak"**_ has-a
     - when the _"whole"_ gets destroyed, the part does not
     - when a Terrorist dies, his/her Gun can be picked up by teammates/enemies
 
