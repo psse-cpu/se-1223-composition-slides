@@ -42,7 +42,7 @@ class Person {
 
 #### Test-driving the class
 
-```dart []
+```dart [1-11 | 13-18]
 final people = [
   Person(name: 'Boy Balhas'),
   Person(name: 'Boy Em-El')
