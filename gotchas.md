@@ -234,7 +234,7 @@ class Ninja {
 
 // main.dart
 final naruto = Ninja(name: 'Naruto', chakraLevel: 99999);
-final stillNaruto = naruto;
+final stillNaruto = naruto; // remote control to `naruto`
 stillNaruto.chakraLevel = 50;
 print("Naruto's chakra: ${naruto.chakraLevel}");
 final aRealClone = Ninja.clone(naruto);
@@ -253,3 +253,17 @@ Clone's name: Boruto
 Clone's chakra: 700
 */
 ```
+
+
+
+### So we have to clone getter returns every time?
+
+- is it OK for some random class to do something like:
+```dart
+veterinarian.license.expiryDate = Date(2030, 7, 25);
+```
+
+  + if it's OK, then cloning is just a waste of effort, CPU cycles, and battery 😅
+  + if not, give your 1:1 and 1:n getters some careful thought
+- **mutable state can lead to debugging nightmares**, especially if you can't trace which random 
+  spell class changed the `damage` of your Orc's weapon
