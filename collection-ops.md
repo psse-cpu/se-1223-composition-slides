@@ -240,7 +240,7 @@ No loop this time, but should still check if you got a result (not null).
 
 
 
-### Existential Quantification
+### Existential Statements
 
 - true if `some` element(s) passes a test (at least one)
 
@@ -262,7 +262,7 @@ bool get hasAthiests { // returns one value like a reduction
 
 
 
-### Universal Quantification
+### Universal Statements
 
 - true if -- and only if -- `every` element passes a test
 
