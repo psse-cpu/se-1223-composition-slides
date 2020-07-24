@@ -79,6 +79,7 @@ void main() {
   
   person.hobbies.removeAt(0);
   person.hobbies.add(Hobby('smoking', 250));
+  print('--- LOOK MA, I CAN MODIFY _hobbies freely ---');
   print(person.hobbies);
 }
 ```
