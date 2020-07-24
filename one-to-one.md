@@ -16,14 +16,14 @@ class Personality {
   Personality({
     this.introverted, 
     this.psychopathProbability
-  }) {}
+  });
 }
 
 class Person {
   Personality personality;
   String name;
 
-  Person({this.name, this.personality}) {}
+  Person({this.name, this.personality});
 }
 
 // main.dart
