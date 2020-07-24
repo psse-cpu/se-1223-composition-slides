@@ -63,7 +63,7 @@ Output:
 
 
 
-### The setter is an illusion...
+### `learnHobby` protection is a scam!
 
 ![genjutsu](images/genjutsu.jpg)
 
