@@ -271,7 +271,7 @@ if (results.isEmpty) {
   print("*** Sorry, no matching items for '$keyword'.");
 } else {
   for (final item in results) {
-    print('${item.name}: ${item.price}');
+    print('${item.description}: ${item.price}');
   }
 }
 ```
@@ -312,7 +312,7 @@ if (shop.promoItems.isEmpty) {
   print("*** Sorry, no promos right now.");
 } else {
   for (final item in shop.promoItems) {
-    print('${item.name}: ${item.price}');
+    print('${item.description} ${item.price}');
   }
 }
 ```
@@ -354,7 +354,7 @@ final item = shop.findByKeywords(serial);
 if (item == null) {
   print("*** Sorry, no item w/ S/N '$serial'.");
 } else {
-  print('${item.name}: ${item.price}');
+  print('${item.description}: ${item.price}');
 }
 ```
 
