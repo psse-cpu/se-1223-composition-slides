@@ -131,7 +131,7 @@ Searching for "alcohol"
       <span class="fragment" style="color: red" data-fragment-index="5">❌</span>
     </li>
     <li>
-      Safeguard Lemon Handwash<span style="color: blue">99.00</span>
+      Safeguard Lemon Handwash <span style="color: blue">99.00</span>
       <span class="fragment" style="color: red" data-fragment-index="6">❌</span>
     </li>
     <li>
@@ -199,7 +199,7 @@ Searching for "sanitizer"
       <span class="fragment" style="color: red" data-fragment-index="3">❌</span>
     </li>
     <li>
-      Safeguard Lemon Handwash<span style="color: blue">99.00</span>
+      Safeguard Lemon Handwash <span style="color: blue">99.00</span>
       <span class="fragment" style="color: red" data-fragment-index="4">❌</span>
     </li>
     <li>
