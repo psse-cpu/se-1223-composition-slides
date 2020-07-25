@@ -151,7 +151,7 @@ Searching for "alcohol"
       <span class="fragment" style="color: green" data-fragment-index="11">✔</span>
     </li>
     <li>
-      Vitamin C with Zinc 100 tab box<span style="color: blue">625.00</span>
+      Vitamin C with Zinc 100 tab box <span style="color: blue">625.00</span>
       <span class="fragment" style="color: red" data-fragment-index="13">❌</span>
     </li>
   </ul>
@@ -219,7 +219,7 @@ Searching for "sanitizer"
       <span class="fragment" style="color: red" data-fragment-index="8">❌</span>
     </li>
     <li>
-      Vitamin C with Zinc 100 tab box<span style="color: blue">625.00</span>
+      Vitamin C with Zinc 100 tab box <span style="color: blue">625.00</span>
       <span class="fragment" style="color: red" data-fragment-index="9">❌</span>
     </li>
   </ul>
