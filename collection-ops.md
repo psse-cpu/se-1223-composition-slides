@@ -410,7 +410,7 @@ bool get noFailuress { // returns one value like a reduction
 
 * More commonly used in the presentation layer
   - but domain classes can make use of this in some casees
-* a list maps 1:1 to another list (or other structures)
+* a list **maps** 1:1 to another list (or other structures)
   - same number of elements, could be different types
   - useful when extracting some inner objects
 
