@@ -441,7 +441,7 @@ bool get noFailuress { // returns one value like a reduction
 
 ### Mapping (2/2)
 
-```dart []
+```dart [1-8 | 10-17 | 19-24 | 26-35 | 38-50]
 class Leader {
   String firstName;
   String lastName;

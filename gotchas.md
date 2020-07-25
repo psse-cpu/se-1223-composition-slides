@@ -5,7 +5,7 @@ Getter Gotchas
 
 ### Forbidding bad hobbies
 
-```dart
+```dart [1-11 | 18-29 | 36-41]
 class Hobby {
   String name;
   int calorieBurn;
