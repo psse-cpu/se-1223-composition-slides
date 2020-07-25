@@ -389,7 +389,7 @@ bool get hasAthiests { // returns one value like a reduction
 - true if -- and only if -- `every` element passes a test
 
 ```dart
-bool get noFailuress { // returns one value like a reduction
+bool get noFailures { // returns one value like a reduction
   for (final student in classroll) {
     // has a conditional like linear search
     if (student.grade.isDeficiency()) { // 5.0, D, L, Inc, -
