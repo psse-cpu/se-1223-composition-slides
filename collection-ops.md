@@ -500,3 +500,29 @@ ph.cities:
 ph.mayors:
 [Jerry Treñas, Vico Sotto, Isko Moreno, Joy Belmonte, Sara Duterte]
 </pre>
+
+
+
+### Functional approaches
+
+* All those ceremonial for-loops are repetitive
+  - In SE-2123, you'll learn FP, allowing you to do these:
+
+```dart [4-16]
+class Country {
+  /* some other code */
+
+  List&lt;Leader&gt; get mayors => 
+    cities.map(city => city.mayor);
+
+  bool get hasFemaleLeaders =>
+    cities.any(city => city.mayor.isFemale);
+
+  List&lt;Leader&gt; searchByName(String name) => 
+    cities.where(city => 
+      city
+        .name
+        .toLowerCase()
+        .contains(name.toLowerCase())
+    );
+```
