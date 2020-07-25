@@ -23,7 +23,7 @@ class Person {
   String name;
   List&lt;Hobby&gt; _hobbies = []; // ensure not null
 
-  learnHobby(Hobby newHobby) {
+  void learnHobby(Hobby newHobby) {
     // we can change list to another data structure later
     // or even reject hobbies already learned
     // or maybe reject hobbies bad for the health
