@@ -38,6 +38,7 @@ Composition
   - imperative techniques
     + linear search
     + map and reduce
+    + existential and universal statements
   + overview of functional techniques
 
 
