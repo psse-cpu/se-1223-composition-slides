@@ -525,4 +525,5 @@ class Country {
         .toLowerCase()
         .contains(name.toLowerCase())
     );
+}
 ```
