@@ -41,7 +41,7 @@ final normalExtrovert = Person(
     introverted: false,
     psychopathProbability: 3
   )
-)
+);
 ```
 
 
